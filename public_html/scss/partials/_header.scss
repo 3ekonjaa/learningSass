@@ -4,9 +4,16 @@ $header-link-color:$white;
 header{
     padding: 30px 0;
     background-color: $header-bg;
+
     
 }
 
+header .branding{
+        text-align: center ;
+    }
+
 header a{
     color:$header-link-color;
+    
 }
+
