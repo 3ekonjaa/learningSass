@@ -1,0 +1,27 @@
+$btn-default: $dark-gray;
+$btn-default-color:$white;
+$btn-danger: $red;
+
+%btn{
+    display: inline-block;
+    padding: 10px 25px;
+    border: none; 
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn-default{
+    @extend %btn;
+    background-color: $dark-gray;
+    color: $btn-default-color;
+}
+
+.btn-danger{
+    @extend %btn;
+    background-color: $red;
+    color: $btn-default-color;
+}
