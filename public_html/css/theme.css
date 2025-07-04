@@ -13,11 +13,19 @@
 .btn-default {
   background-color: #444444;
   color: #ffffff;
+  transition-duration: 0.1s;
+}
+.btn-default:hover {
+  background-color: rgb(42.5, 42.5, 42.5);
 }
 
 .btn-danger {
   background-color: #f00008;
   color: #ffffff;
+  transition-duration: 0.1s;
+}
+.btn-danger:hover {
+  background-color: rgb(189, 0, 6.3);
 }
 
 /* FONT PROPERTY*/
@@ -393,7 +401,7 @@ header nav ul li a {
   font-weight: 700;
 }
 header nav ul li a:hover, header nav ul li a:active {
-  color: #18b304;
+  color: #199e05;
 }
 
 @media (min-width: 768px) {

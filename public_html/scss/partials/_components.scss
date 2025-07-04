@@ -18,10 +18,20 @@ $btn-danger: $red;
     @extend %btn;
     background-color: $dark-gray;
     color: $btn-default-color;
+    transition-duration: 0.1s;
+    
+    &:hover{
+        background-color: darken($dark-gray, 10%);
+    }
 }
 
 .btn-danger{
     @extend %btn;
     background-color: $red;
     color: $btn-default-color;
+    transition-duration: 0.1s;
+    
+    &:hover{
+        background-color: darken($btn-danger, 10%);
+    }
 }
