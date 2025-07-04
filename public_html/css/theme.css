@@ -441,15 +441,42 @@ and open the template in the editor.
   background: #ffffff;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Sep 13, 2019, 12:58:44 PM
-    Author     : frontend
-*/
+.course-section {
+  padding: 50px 0;
+}
+.course-section .container {
+  text-align: start;
+}
+.course-section .container table {
+  text-align: start;
+  width: 100%;
+  border-collapse: collapse;
+}
+.course-section .container table thead th {
+  border: 0.5px solid #ffffff;
+  padding: 10px;
+}
+.course-section .container table tbody tr td, .course-section .container table tbody tr th {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+.course-section .container table tbody tr:nth-of-type(even) {
+  background-color: white;
+}
+.course-section .container table tbody tr:hover {
+  background-color: #cccccc;
+  cursor: pointer;
+}
+.course-section .container table caption {
+  text-align: start;
+  font-style: italic;
+}
+.course-section .container table thead {
+  background-color: #8a059e;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
