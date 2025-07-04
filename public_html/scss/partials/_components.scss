@@ -22,7 +22,7 @@ $btn-danger: $red;
 .btn-default{
     @extend %btn;
     background-color: $dark-gray;
-    color: $btn-default-color;
+    color: colorYiq($btn-default);
     transition-duration: 0.1s;
     
     &:hover{
