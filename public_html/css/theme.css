@@ -468,23 +468,23 @@ header nav ul li a:hover, header nav ul li a:active {
     padding: 5px 15px;
   }
 }
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Sep 13, 2019, 12:57:08 PM
-    Author     : frontend
-*/
+.home-section {
+  padding: 150px 0 150px;
+  background-color: #ffffff;
+  background-image: url(assets/home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
 .about-section {
   padding: 30px 0 30px;
   background-color: #ffffff;
 }
 
 .comment-section {
-  padding: 30px 0;
-  background: #ffffff;
+  padding: 30px 0 30px;
+  background-color: #ffffff;
 }
 .comment-section .comment-img img {
   border-radius: 50%;
@@ -492,7 +492,24 @@ and open the template in the editor.
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
 }
+.comment-section li {
+  display: flex;
+}
+.comment-section li a {
+  flex: 0 0 50px;
+}
+.comment-section li .comment-body {
+  margin-left: 15px;
+}
+.comment-section li .comment-body h2 {
+  margin-top: 0px;
+}
 
+@media (min-width: 768px) {
+  .comment-section li a {
+    flex: 0 0 90px;
+  }
+}
 .course-section {
   padding: 50px 0;
 }
@@ -529,15 +546,43 @@ and open the template in the editor.
   border-color: #ffffff;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Sep 13, 2019, 12:59:07 PM
-    Author     : frontend
-*/
+.contact-section {
+  padding: 150px 0 150px;
+  background-color: #ffffff;
+  background-image: url(assets/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+.contact-section h2 {
+  text-align: center;
+}
+.contact-section .container {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+.contact-section .container form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact-section .container form label {
+  display: block;
+}
+.contact-section .container form input, .contact-section .container form textarea {
+  width: 100%;
+  line-height: 4rem;
+  padding-left: 10px;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+}
+
 footer {
   padding: 30px 0;
   background-color: #8a059e;
